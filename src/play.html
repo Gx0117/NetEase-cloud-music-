@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/play.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../iconfont2/iconfont.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/play.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="play-wrap">
+        <div class="title">
+            <div class="title-back">
+                <span class="iconfont icon-changyongicon-2"></span>
+            </div>
+            <div class="title-name">
+                <span class="name"></span>
+            </div>
+            <div class="title-share">
+                <span class="iconfont icon-fenxiang"></span>
+            </div>
+        </div>
+        <div class="disc">
+            <img src="#" alt="">
+        </div>
+
+        <!-- play-control start -->
+        <div class="play-control">
+            <div class="play-progress">
+              <div class="currentTime time">
+      
+              </div>
+              <div class="progress">
+                <div class="pro-bg"></div>
+                <div class="pro-bar"></div>
+              </div>
+      
+              <div class="duration time">
+      
+              </div>
+            </div>
+      
+            <div class="controls">
+              <div class="playing">
+                <span class="iconfont icon-pause"></span>
+              </div>
+            </div>
+          </div>
+        <!-- play -control end  -->
+
+        <div class="play-lyric">
+            <div class="lyric-wrap"></div>
+        </div>
+    </div>
+    <div class="mask"></div>
+    <div id="p"></div>
+
+<script>document.documentElement.style.fontSize = 100 * (window.innerWidth / 320) + "px";</script>
+</body>
+</html>

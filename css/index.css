@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* header start */
+.header-wrap{
+    margin-top: 0.19rem;
+    height: 0.28rem;
+    /* background-color: pink; */
+}
+.header-wrap .header{
+    display: flex;
+    height: 0.28rem;
+    /* background-color: red; */
+}
+.header-wrap .header a{
+    justify-content: center;
+    line-height: 0.28rem;
+    display: flex;
+    width: 0.41rem;
+    height: 0.28rem;
+    flex: 0 0 0.41rem;
+    /* background-color: skyblue; */
+}
+.header-wrap .header a .iconfont{
+    font-size: 0.18rem;
+}
+.header-wrap .header .h-nav{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0 0.3rem;
+}
+.header-wrap .header .h-nav ul{
+    display: flex;
+    width: 1.78rem;
+    line-height: 0.28rem;
+    flex: 1 0 1.78rem;
+    font-size: 0.14rem;
+    justify-content: space-between;
+    /* background-color: deeppink; */
+}
+.header-wrap .header .h-nav ul .h-nav-li-max{
+    font-size: 0.16rem;
+}
+/* header end */
+
+
+/* nav start */
+/* .nav{
+    height: 0.3rem;
+    background-color: pink;
+} */
+.nav .nav-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.13rem 0.16rem;
+    /* background-color: skyblue; */
+}
+.nav .nav-list .nav-item{
+    width: 0.38rem;
+    flex: 0 0 0.38rem;
+    /* background-color: deeppink; */
+}
+.nav .nav-list .nav-item .nav-img{
+    display: flex;
+    height: 0.38rem;
+    border-radius: 50%;
+    line-height: 0.38rem;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+}
+.nav .nav-list .nav-item .nav-img .iconfont{
+    position: absolute;
+    font-size: 0.18rem;
+    color: #fff;
+}
+.nav .nav-list .nav-item .nav-img .icon-gedan{
+    /* position: absolute;
+    left: 1.5rem; */
+    padding-left: 0.02rem;
+}
+.nav .nav-list .nav-item .nav-img .icon-paihangbang{
+    /* position: absolute;
+    left: 1.5rem; */
+    padding-left: 0.08rem;
+}
+.nav .nav-list .nav-item .nav-img .icon-yule_yinlediantai{
+    font-size: 0.22rem;
+}
+.nav .nav-list .nav-item .nav-img .icon-zhibo{
+    font-size: 0.26rem;
+    padding-left: 0.02rem;
+}
+.nav .nav-list .nav-item .nav-img .iconfont .time{
+    position: absolute;
+    top: 0.02rem;
+    left: 0.04rem;
+    font-size: 0.08rem;
+    font-weight: 700;
+    color: red;
+}
+.nav .nav-list .nav-item .nav-img .iconfont .time_bgc{
+    width: 0.16rem;
+    height: 0.11rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.01rem;
+    align-content: center;
+}
+.nav .nav-list .nav-item .nav-title{
+    display: block;
+    font-size: 0.08rem;
+    margin-top: 0.07rem;
+    text-align: center;
+}
+/* nav end */
+
+
+
+/* discover start */
+    /* .discover{
+    /* height: 0.2rem;
+    /* background-color: pink;
+} */
+.discover .discover-wrap{
+    padding: 0.17rem 0.13rem;
+    /* background-color: skyblue; */
+}
+.discover .discover-wrap .dis-title{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 0.2rem;
+    padding-bottom: 0.15rem;
+    /* background-color: blue; */
+}
+.discover .discover-wrap .dis-title .name{
+    font-size: 0.15rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 0.35rem;
+}
+.discover .discover-wrap .dis-title .more{
+    font-size: 0.08rem;
+    margin-top: 0.08rem;
+    width: 0.40rem;
+    height: 0.16rem;
+    text-align: center;
+    border: 0.02rem solid #e6e6e6;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+.discover .discover-wrap .dis-title .more a{
+    display: block;
+    line-height: 0.16rem;
+    color: #333;
+}
+.discover .discover-wrap .dis-title .more a:active{
+    background-color: #e6e6e6;
+}
+.discover .discover-wrap .dis-content{
+    height: 3rem;
+    /* background-color: pink; */
+}
+.discover .discover-wrap .dis-content .dis-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.discover .discover-wrap .dis-content .dis-list .dis-item{
+    width: 0.92rem;
+    height: 1.22rem;
+    margin-bottom :0.17rem;
+    /* background-color: deeppink; */
+}
+.discover .discover-wrap .dis-content .dis-list .dis-item .dis-img{
+    display: flex;
+    overflow: hidden;
+    height: 0.92rem;
+    border-radius: 0.06rem;
+    /* background-color: red; */
+}
+.discover .discover-wrap .dis-content .dis-list .dis-item .dis-img img{
+    width: 100%;
+}
+.discover .discover-wrap .dis-content .dis-list .dis-item .desc{
+    font-size: 0.08rem;
+    line-height: 0.14rem;
+    color: #444;
+    padding-top: 0.04rem;
+}
+/* discover end */

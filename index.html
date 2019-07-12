@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./iconfont2/iconfont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <title>网易云音乐</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #333;   
+        }
+        i{
+            font-style: normal;
+        }
+        .swiper{
+            position: relative;
+            width: 2.93rem;
+            margin: 0.14rem 0.13rem;
+            padding-top: 1.1rem;
+            /* background-color: pink; */
+            border-radius: 0.08rem;
+            overflow: hidden;
+        }
+        .swiper .swiper-slide{
+            position: relative;
+        }
+        .swiper .swiper-container{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .swiper .swiper-pagination{
+            line-height: 0.8rem;
+        }
+        .swiper-slide .banner-img{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide .banner-img-type{
+            width: 0.28rem;
+            height: 0.18rem;
+            font-size: 0.06rem;
+            font-family:"雅黑";
+            font-weight: 700;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 0.06rem;
+            line-height: 0.18rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- header start -->
+    <div class="header-wrap">
+        <div class="header">
+            <a href="#">
+                <span class="iconfont icon-changyongicon-"></span>
+            </a>
+            <div class="h-nav">
+                <ul>
+                    <li>我的</li>
+                    <li class="h-nav-li-max">发现</li>
+                    <li>朋友</li>
+                    <li>视频</li>
+                </ul>
+            </div>
+            <a href="#">
+                <span class="iconfont icon-changyongicon-1"></span>
+            </a>
+        </div>
+    </div>
+    <!-- header end -->
+    
+
+    <!-- swiper start -->
+    <div class="swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- swiper end -->
+
+
+    <!-- nav start -->
+    <div class="nav">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="./src/recommend.html">
+                    <div class="nav-img">
+                        <span class="iconfont icon-rili">
+                            <span class="time_bgc"></span>
+                            <i class="time"></i>
+                           
+                        </span>
+                    </div>
+                    <span class="nav-title">每日推荐</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                    <a href="#">
+                        <div class="nav-img">
+                            <span class="iconfont icon-gedan"></span>
+                        </div>
+                        <span class="nav-title">歌单</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a href="#">
+                        <div class="nav-img">
+                            <span class="iconfont icon-paihangbang"></span>
+                        </div>
+                        <span class="nav-title">排行榜</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a href="#">
+                        <div class="nav-img">
+                            <span class="iconfont icon-yule_yinlediantai"></span>
+                        </div>
+                        <span class="nav-title">电台</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a href="#">
+                        <div class="nav-img">
+                            <span class="iconfont icon-zhibo"></span>
+                        </div>
+                        <span class="nav-title">直播</span>
+                    </a>
+            </li>
+        </ul>
+    </div>
+    <!-- nav end -->
+
+
+    <!-- discover start -->
+    <div class="discover">
+        <div class="discover-wrap">
+            <div class="dis-title">
+                <div class="name">推荐歌单</div>
+                <div class="more">
+                    <a href="#">歌单广场</a>
+                </div>
+            </div>
+            <div class="dis-content">
+                <ul class="dis-list">
+                    <li class="dis-item">
+                        <a href="./src/song_sheet.html">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                            <a href="./src/song_sheet.html">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                        <a href="#">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                        <a href="#">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                        <a href="#">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                        <a href="#">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                    <li class="dis-item">
+                        <a href="#">
+                            <div class="dis-img">
+                                <img src="" alt="">
+                            </div>
+                            
+                        </a>
+                        <div class="desc">夏至未至,准备好一双舞鞋和躁动的心</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- discover end -->
+    
+    <script>
+        document.documentElement.style.fontSize =  100 * (window.innerWidth / 320) + "px";
+        
+
+    </script>
+</body>
+</html>
